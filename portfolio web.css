@@ -7,6 +7,16 @@
     background-color: #070a1f;
     font-family: "Times New Roman", Times, serif;
   }
+
+  .parallax {
+    background-image: url('WechatIMG2.jpeg');
+    height: 100%; 
+    width: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   
   #navbar {
     background-color: #070a1f;
@@ -306,7 +316,7 @@
 .About{
   width:100%;
   height:auto;
-  background-color: #070a1f;
+  background-color: #070a1f62;
   border-color: gray;
   padding-left:100px;
   padding-right:100px;
@@ -317,7 +327,7 @@
 }
 
 .Contact{
-  background-color: #070a1f;
+  background-color: #070a1f57;
   border-color: gray;
   padding-left:100px;
   padding-right:100px;
@@ -375,7 +385,7 @@
 }
 
 
-  @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .content {
     font-size: 15px;
     }
@@ -389,4 +399,10 @@
         flex: 90%;
         max-width: 90%;
       }
-    }
+}
+
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+ } 
