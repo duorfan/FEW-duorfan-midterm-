@@ -32,8 +32,9 @@
 <p>.</p> 
   <p>Scroll down to grab more happy pieces</p>
   <p>.</p>
+ 
   </div>
-
+  <button class="Event" id="clickme">click me~</button>
 </div>
 
 <div id="mySidenav" class="sidenav">
@@ -44,6 +45,7 @@
 
 <div class="hwk">
     <a class="subtitle">RECENT WORKS</a>
+    <button class="Event" id="clickme2">click me~</button>
         <img src="hwk5.jpg" style="width:100%">
         <img src="hwk3.jpg" style="width:100%">
         <img src="hwk1.jpg" style="width:100%">
@@ -56,6 +58,7 @@
 <div id="section1" class="vlogPage">
 
 <h2 class="subtitle">RECENT MOMENTS</h2>
+<button class="Event" id="clickme3">click me~</button>
 <h2 class="subtitle" style="font-size: 20px";>using Premiere & Jianying</h2>
 
 <div class="vlogs">
@@ -184,38 +187,7 @@
   <a class="whitegreytitle">WeChat: duorfan</a>
 </div>
 
-<script>
-
-
-var video = document.getElementById("myVideo");
-var btn = document.getElementById("myBtn");
-
-function myFunction() {
-  if (video.paused) {
-    video.play();
-    btn.innerHTML = "Pause";
-  } else {
-    video.pause();
-    btn.innerHTML = "Play";
-  }
-}
-
-
-var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
-var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementById("navbar").style.top = "0";
-  } else {
-    document.getElementById("navbar").style.top = "-60px";
-  }
-  prevScrollpos = currentScrollPos;
-
-}
-
-
-
-</script>
+<script src ="portfolio web.js"></script>
 
 </body>
 </html>

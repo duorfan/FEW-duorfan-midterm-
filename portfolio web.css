@@ -387,6 +387,15 @@
   padding:10px 10px; 
 }
 
+.Event{
+  width: 100px;
+  font-size: 15px;
+  padding: 10px;
+  border: none;
+  background-color: #91b8f3;
+
+}
+
 
 @media screen and (max-width: 600px) {
     .content {
